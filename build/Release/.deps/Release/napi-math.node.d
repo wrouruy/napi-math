@@ -1,0 +1,1 @@
+cmd_Release/napi-math.node := ln -f "Release/obj.target/napi-math.node" "Release/napi-math.node" 2>/dev/null || (rm -rf "Release/napi-math.node" && cp -af "Release/obj.target/napi-math.node" "Release/napi-math.node")

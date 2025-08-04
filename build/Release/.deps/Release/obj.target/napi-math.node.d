@@ -1,0 +1,1 @@
+cmd_Release/obj.target/napi-math.node := g++ -o Release/obj.target/napi-math.node -shared -pthread -rdynamic -m64  -Wl,-soname=napi-math.node -Wl,--start-group Release/obj.target/napi-math/src/napi-math.o -Wl,--end-group 
